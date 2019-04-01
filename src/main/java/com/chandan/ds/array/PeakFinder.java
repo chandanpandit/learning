@@ -21,6 +21,13 @@ public class PeakFinder {
                 {1, 2, 3, 5}
         };
         System.out.println(findPeak(b));
+        int[][] c = {
+                {10, 8, 10, 10},
+                {14, 13, 12, 11},
+                {15, 9, 11, 21},
+                {16, 17, 19, 20}
+        };
+        System.out.println(findPeak(c));
     }
 
     // finds a peak in a 1D array
